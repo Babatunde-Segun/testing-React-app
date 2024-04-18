@@ -3,6 +3,7 @@ import { useState } from "react";
 
 // Component to be tested
 function Greeting() {
+  // useState for re-rendering ui when change
   const [changedText, setChangedText] = useState(false);
 
   const changeTextHandler = () => {
