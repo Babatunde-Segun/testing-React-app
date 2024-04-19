@@ -15,7 +15,7 @@ describe("Greeting component", () => {
     render(<Greeting />);
 
     // Act
-    // basically nothing for now
+    // basically nothing for no
 
     // Assert
     const helloWorld = screen.getByText("Hello World", { exact: false });
