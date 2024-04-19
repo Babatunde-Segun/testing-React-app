@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Output from "./Output";
 
 // Component to be tested
 function Greeting() {
@@ -13,8 +14,8 @@ function Greeting() {
   return (
     <div>
       <h2>Hello World!</h2>
-      {!changedText && <p>Happy to see you</p>}
-      {changedText && <p>Changed!</p>}
+      {!changedText && <Output>Happy to see you</Output>}
+      {changedText && <Output>Changed!</Output>}
 
       <button onClick={changeTextHandler}>Changed Text</button>
     </div>

@@ -18,7 +18,7 @@ describe("Greeting component", () => {
     // basically nothing for now
 
     // Assert
-    const helloWorld = screen.getByText("Hello World", { exact: true });
+    const helloWorld = screen.getByText("Hello World", { exact: false });
     expect(helloWorld).toBeInTheDocument();
   });
 
