@@ -7,7 +7,7 @@ describe("Async component", () => {
     render(<Async />);
 
     // Assertion
-    const listItemEl = await screen.findAllByRole("listitem");
+    const listItemEl = await screen.findAllByRole("list");
     expect(listItemEl).not.toHaveLength(0);
   });
 });

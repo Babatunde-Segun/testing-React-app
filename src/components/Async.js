@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// Testing Asynchronous component
 const Async = () => {
   const [posts, setPosts] = useState([]);
 

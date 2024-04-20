@@ -10,7 +10,7 @@ describe("Greeting component", () => {
   // 3) Assert: Compare execution result with expectated result
 
   // test is a global function which take two arguments, first the description and a anonymous function to be executed
-  test("renders Hello World as a text", () => {
+  test("renders Hello World as  text", () => {
     // Arrange
     render(<Greeting />);
 
